@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT||3000
-var student = {"name" : "Being Zero",
+var student = {"name" : "Geethanjali",
                "college" : "VNRVJIET",
                "regno": "112323232"}
 app.use(express.static('frontend'))
